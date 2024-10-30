@@ -1,11 +1,11 @@
 [versions]
-polocloud = "1.0.0-alpha-4-SNAPSHOT"
+polocloud = "1.0.0.5-SNAPSHOT"
 
 [plugins]
 
 [libraries]
-polocloud-api = { group = "dev.httpmarco.polocloud.node", name = "api", version.ref = "polocloud" }
-polocloud-node = { group = "dev.httpmarco.polocloud.node", name = "polocloud", version.ref = "polocloud" }
+polocloud-api = { group = "dev.httpmarco.polocloud", name = "api", version.ref = "polocloud" }
+polocloud-node = { group = "dev.httpmarco.polocloud", name = "node", version.ref = "polocloud" }
 
 [bundles]
 polocloud = ["polocloud-api", "polocloud-node"]
